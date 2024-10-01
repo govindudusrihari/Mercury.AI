@@ -1,5 +1,3 @@
-# Stage 9:  Handling Multiple User Sessions
-
 import os
 import sys
 from dotenv import load_dotenv
@@ -76,7 +74,6 @@ if __name__ == "__main__":
             thread.start()  
         else:
             print("Access denied. Please provide valid authentication details.")
-# Stage 10:  Improving Chatbot's Memory and Knowledge
 
 import os
 import sys
@@ -161,7 +158,6 @@ if __name__ == "__main__":
             thread.start()  
         else:
             print("Access denied. Please provide valid authentication details.")
-# Stage 11: Improving Error Handling and Fallback Mechanisms
 
 import os
 import sys
@@ -269,7 +265,6 @@ if __name__ == "__main__":
             thread.start()  
         else:
             print("Access denied. Please provide valid authentication details.")
-# Stage 12: Introducing Interactive Elements
 
 import os
 import sys
@@ -397,7 +392,6 @@ if __name__ == "__main__":
             thread.start()  
         else:
             print("Access denied. Please provide valid authentication details.")
-# Stage 13: Integrating with External Resources
 
 import os
 import sys
@@ -529,8 +523,6 @@ if __name__ == "__main__":
             thread.start()  
         else:
             print("Access denied. Please provide valid authentication details.")
-# Stage 14: Improving Response Generation with Gemini Parameters
-
 import os
 import sys
 from dotenv import load_dotenv
@@ -670,7 +662,6 @@ if __name__ == "__main__":
             thread.start()  
         else:
             print("Access denied. Please provide valid authentication details.")
-# Stage 15: Improving User Authentication and Security
 
 import os
 import sys
