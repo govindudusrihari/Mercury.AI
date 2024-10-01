@@ -1,5 +1,3 @@
-# Stage 1: Project Setup and Initial Dependencies
-
 import os
 import sys
 from dotenv import load_dotenv
@@ -167,8 +165,6 @@ def handle_conversation():
 
 # Run the main conversation loop
 handle_conversation()
-# Stage 4:  Contextual Understanding and Enhanced Responses
-
 import os
 import sys
 from dotenv import load_dotenv
