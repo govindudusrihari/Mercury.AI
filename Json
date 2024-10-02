@@ -1,0 +1,13 @@
+import requests
+import json
+
+def generate_text(prompt):
+    url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=YOUR_API_KEY"
+    headers = {'Content-Type': 'application/json'}
+    data = {"contents":[{"parts":[{"text": prompt}]}]}
+    response = requests.post(url, headers=headers, json=data)
+    return response.json()
+
+# Example usage:
+generated_content = generate_text("Explain how AI works")
+print(generated_content)
